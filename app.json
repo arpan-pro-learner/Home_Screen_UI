@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Ssup_home_screen",
+    "name": "Ssup_AI",
     "slug": "Ssup_home_screen",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.the_selftaught_dev.Ssup_home_screen"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c3b4e75d-c4d5-46ee-8bac-0eed9f61f353"
+      }
     }
   }
 }
